@@ -3,10 +3,10 @@ import numpy as np
 import pickle
 import streamlit as st
 from sklearn.preprocessing import LabelEncoder
-model = pickle.load(open('carprice_model.pkl', 'rb'))
+model = pickle.load(open('model/carprice_model.pkl', 'rb'))
 st.title("Car Price Prediction System")
 
-data = pd.read_csv('car_data.csv')
+data = pd.read_csv('data/car_data.csv')
 
 
 def first_word(column_name):
