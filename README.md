@@ -19,47 +19,10 @@ The Car Price Prediction System is a web based application built with Streamlit 
 3. Customizable Inputs
 4. Machine Learning Models
 
-# Installation
+# Snippets
+![image](https://github.com/user-attachments/assets/a80c7441-a0ab-43d2-8eb3-ae58f610fb92)
+![image](https://github.com/user-attachments/assets/4bcb3a8e-815e-47e6-bbcf-19dfa76ba19e)
 
-For simply, hit the given url in your browser: https://carpriceml.streamlit.app
-
-or,
-
-to run locally, follow these steps:
-
-1. Clone the repositary:
-   git clone https://github.com/shushilshah/car_price_ml.git
-   cd car_price_ml
-
-2. Install required dependencies:
-   pip install -r requirements.txt
-
-3. Run the application:
-   streamlit run app.py
-
-# Usage
-
-After running the application, you can access in your browser at http://localhost:8503/
-
-1. Input Car Details as shown.
-2. Get Prediction by hitting prediction button.
-
-# Project Structure
-
-car-price-prediction/
-| app.py
-| requirements.txt
-| README.md
-| .gitignore
-|
-+---data
-| car_data.csv
-|
-+---models
-| carprice_model.pkl
-|
-+---notebooks
-| Car_Price_Prediction.ipynb
 
 # Contributing
 
